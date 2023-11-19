@@ -1,0 +1,28 @@
+header a {
+    color: #000 !important;
+}
+header .nav a:hover {
+  color: #FFE64C !important;
+}
+header .img-logo {
+    width: 150px;
+    height: 106px;
+}
+header .phone-block p {
+    color: #6343ff !important;
+}
+
+@media only screen and (max-width: 768px) {
+    header .phone-block svg path {
+        stroke: #fff !important;
+    }
+    header a {
+        color: #fff !important;
+    }
+    header .img-logo {
+        display: none;
+    }
+    header .img-logo-mobile {
+        display: block;
+      }
+}
